@@ -37,6 +37,7 @@ response.encoding = response.apparent_encoding
 response.raise_for_status()
 source = response.text
 
+#geocities service is going to end 2019/3/31. In that case, use source code though it's a secret...
 #source = shelve.open("source")["source"]
 
 sp = bs4.BeautifulSoup(source,"html.parser")
