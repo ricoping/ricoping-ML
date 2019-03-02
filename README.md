@@ -3,6 +3,9 @@ My tools for analyzing dairy life data.
 
 ## Requirements
 
+- bs4
+- requests
+
 You need to get *clusters.py* from https://github.com/arthur-e/Programming-Collective-Intelligence/tree/master/chapter3 and need to change *readfile* function to: 
 
 ~~~
