@@ -1,6 +1,7 @@
 import os, mecabing, re, clusters, bs4, requests, shelve
 from pprint import pprint
 
+# ATTENTION: 'SS' is half-width, others are full-width.
 def alpha2degit(alphabet):
 	if 'SS' in alphabet:
 		return 7.0
