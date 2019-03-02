@@ -6,7 +6,7 @@ My tools for analyzing dairy life data.
 - bs4
 - requests
 
-You need to get *clusters.py* from https://github.com/arthur-e/Programming-Collective-Intelligence/tree/master/chapter3 and need to change *readfile* function to: 
+You also need to get *clusters.py* from https://github.com/arthur-e/Programming-Collective-Intelligence/tree/master/chapter3 and need to change *readfile* function to: 
 
 ~~~
 def readfile(filename):
