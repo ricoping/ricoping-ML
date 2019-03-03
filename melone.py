@@ -24,7 +24,6 @@ def geneticoptimize(costf,popsize=50,\
 		result=r1[0:i]+r2[i:]
 		while len(set(result))!=5:
 			result=r1[0:i]+r2[i:]
-			print(result)
 		return result
 
 	pop=[]
