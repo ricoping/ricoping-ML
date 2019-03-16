@@ -58,4 +58,4 @@ f.close()
 blognames, words, data = clusters.readfile("newsdata.txt")
 clust = clusters.hcluster(data)
 
-clusters.printclust(clust, labels=blognames)
+clusters.printclust(clust, labels=blognames) 
