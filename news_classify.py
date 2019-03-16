@@ -137,4 +137,4 @@ for genre in ["it-life-hack/","sports-watch/"]:
 		except:
 			continue
 
-	print("正しく判別できた確率は",cost(results)*100,"%です！")
+	print("正しく判別できた確率は",cost(results)*100,"%です！") 
