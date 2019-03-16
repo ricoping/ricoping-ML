@@ -38,4 +38,4 @@ tree_data = [td for td in map(fav2genre, tree_data)]
 
 tree=numpredict.buildtree(tree_data)
 #numpredict.prune(tree, 0.4)
-numpredict.drawtree(tree, jpeg="tweettree.jpg")
+numpredict.drawtree(tree, jpeg="tweettree.jpg") 
